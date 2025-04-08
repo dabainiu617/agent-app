@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-5=o((ur2u9&udf$!fup_5hs3j82rsw5)^@-l4r^_czn!uer0v%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', 'improved-space-computing-machine-75grvqwrwr42rpp7-8000.app.github.dev']
 
 
 # Application definition
@@ -131,3 +131,5 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # Enable CORS and allow all hosts
 CORS_ALLOW_ALL_ORIGINS = True
+
+CSRF_TRUSTED_ORIGINS = ['https://improved-space-computing-machine-75grvqwrwr42rpp7-8000.app.github.dev']
